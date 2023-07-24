@@ -1,0 +1,108 @@
+/** Papel de Parede */
+body{
+    background: #222;
+    background-image: url(../img/wallpaper.png);
+    background-repeat: no-repeat; 
+    background-size: cover;     
+}
+
+/** Barra de Pesquisa */
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 2px solid #888;
+    border-right: none;
+    font-size: 16px;
+    width: 45%;
+    background-color: #f1f1f1;
+}
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #888;
+    color: white;
+    border: 2px solid #888;
+    border-left: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #888;
+}
+  
+  button[type="submit"]:hover {
+    background-color: #888;
+}
+
+/** Menu com Icones */
+
+#nav {width:960px;
+	background: rgba(163, 163, 161, 0.533);
+	margin:0 auto;
+	margin-top: 8px;
+	margin-inline: 471px;
+	float:left;
+	border-radius:4px;
+}
+	
+#nav ul {margin:0;
+		padding:0;
+		list-style:none;
+		width:100%;
+		float:left;
+}
+
+#nav ul li {float:left;
+			font:16px arial;
+			border-right:1px solid #eee;
+}
+
+#nav ul li a {color: #888;
+			padding:20px;
+			display:block;
+}
+
+#nav ul li:hover{background:#eee;
+}
+
+#nav ul li .home { background: #059 url(../img/1.png) no-repeat center;
+				float:left;
+				width:100%;
+				padding:30px 0;
+				margin-bottom:15px;
+}
+
+#nav ul li .servicos { background: #488 url(../img/2.png) no-repeat center;
+				float:left;
+				width:100%;
+				padding:30px 0;
+				margin-bottom:15px;
+}
+
+#nav ul li .eventos { background: #874 url(../img/3.png) no-repeat center;
+				float:left;
+				width:100%;
+				padding:30px 0;
+				margin-bottom:15px;
+}
+				
+#nav ul li .contatos { background: #473 url(../img/4.png) no-repeat center;
+				float:left;
+				width:100%;
+				padding:30px 0;
+				margin-bottom:15px;
+}
+#nav ul li .configura { background: rgb(169, 184, 84) url(../img/5.png) no-repeat center;
+				float:left;
+				width:100%;
+				padding:30px 0;
+				margin-bottom:15px;
+}
